@@ -3,9 +3,9 @@ import Combine
 
 class WebViewModel: ObservableObject{
     var webViewNavigationPublisher = PassthroughSubject<WebViewNavigation, Never>()
-    var showWebTitle: String = "Google"
+    var showWebTitle: String = "DMD"
     var showLoader = PassthroughSubject<Bool, Never>()
-    @Published var url: String = "https://google.com"
+    @Published var url: String = "https://dmdtutorials.com"
 }
 
 enum WebViewNavigation {

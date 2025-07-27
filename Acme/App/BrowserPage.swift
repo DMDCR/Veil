@@ -26,9 +26,7 @@ struct trc: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
         path.addRoundedRect(in: rect, cornerSize: CGSize(width: radius, height: radius), style: .continuous)
-        
-        // Clip only the top corners by manipulating the path
-        return path
+    return path
     }
 }
 
