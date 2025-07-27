@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -86,13 +86,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		0DA35E2D262811D800FF2A98 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
 		0DC5313B2623CB5A00095F31 = {
 			isa = PBXGroup;
 			children = (
@@ -112,7 +105,6 @@
 		0DC531462623CB5A00095F31 /* Acme */ = {
 			isa = PBXGroup;
 			children = (
-				0DA35E2D262811D800FF2A98 /* Utils */,
 				0DA35E202623E7A300FF2A98 /* View */,
 				0DA35E1C2623E75500FF2A98 /* App */,
 				0DC5314B2623CB5B00095F31 /* Assets.xcassets */,
@@ -159,8 +151,9 @@
 		0DC5313C2623CB5A00095F31 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					0DC531432623CB5A00095F31 = {
 						CreatedOnToolsVersion = 12.4;
@@ -257,8 +250,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KQ8WCLBZ58;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -278,6 +273,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -318,8 +314,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KQ8WCLBZ58;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -332,6 +330,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -345,7 +344,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Acme/Preview Content\"";
-				DEVELOPMENT_TEAM = KQ8WCLBZ58;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Acme/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -367,7 +365,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Acme/Preview Content\"";
-				DEVELOPMENT_TEAM = KQ8WCLBZ58;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Acme/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

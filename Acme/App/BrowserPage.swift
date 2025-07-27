@@ -1,5 +1,6 @@
 
 import SwiftUI
+import WebKit
 
 struct BrowserPage: View{
     @ObservedObject var viewModel = WebViewModel()
@@ -12,8 +13,7 @@ struct BrowserPage: View{
                 WebView(viewModel: viewModel)
             }
             
-            BottomNavBarView(viewModel: viewModel)
-                .padding(.bottom, 25)
+
         }
     }
 }

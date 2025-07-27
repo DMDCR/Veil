@@ -104,7 +104,7 @@ struct WebView: UIViewRepresentable, WebViewHandlerDelegate {
                     var url: String = self.parent.$viewModel.url.wrappedValue.lowercased()
 
                     if !url.isEmpty {
-                        if url.hasPrefix("www.") {
+                        if !url.hasPrefix("www.") {
                             url = "https://" + url
                         }
                         if !(url.hasPrefix("https://") || url.hasPrefix("http://")) {
