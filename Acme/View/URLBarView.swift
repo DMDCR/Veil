@@ -16,6 +16,7 @@ struct URLBarView: View {
                         .foregroundColor(Color("TextColor"))
                         .padding(2)
                         .font(.footnote)
+                        .font(.system(size:40, weight: .bold))
                         .keyboardType(.webSearch)
                     
                     Spacer()
@@ -26,6 +27,7 @@ struct URLBarView: View {
                         Image(systemName: "arrow.clockwise")
                             .font(.system(size:16))
                             .foregroundColor(Color.accentColor)
+                            .padding(.horizontal, 4)
                         HStack {
                             Button(action:{
                                 viewModel.webViewNavigationPublisher.send(.backward)
@@ -54,9 +56,18 @@ struct URLBarView: View {
                         }
                     }
                 }
-                .padding(5)
-                .cornerRadius(4.0)
-                .background(Capsule().strokeBorder(Color("TextColor"), lineWidth: 1.25 ))
+                .padding(.horizontal, 2)
+                .padding(.vertical, 5)
+                .cornerRadius(10.0)
+                .background(
+                    RoundedRectangle(cornerRadius: 10)
+                        .fill(Color(UIColor.systemGray5))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .strokeBorder(Color("TextColor"), lineWidth: 0.3) // Border around the rounded rectangle
+                        )
+                )
+
                 Button(action:{
                     let bookmark = Bookmark(context: managedObjectContext)
                     bookmark.name = viewModel.showWebTitle
@@ -72,7 +83,8 @@ struct URLBarView: View {
             }
             
 
-            .padding(.horizontal, 20)
+            .padding(.horizontal, 15)
+            .padding(.bottom, 5)
         }
         
         
