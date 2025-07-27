@@ -37,7 +37,7 @@ jobs:
           xcodebuild -exportArchive -archivePath $PWD/build.xcarchive -exportOptionsPlist ExportOptions.plist -exportPath $PWD/build_artifacts
 
       - name: Upload IPA Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ipa-artifact
           path: build_artifacts/*.ipa
