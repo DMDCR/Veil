@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0DC531432623CB5A00095F31"
-               BuildableName = "Acme.app"
+               BuildableName = "Veil.app"
                BlueprintName = "Acme"
                ReferencedContainer = "container:Veil.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0DC531432623CB5A00095F31"
-            BuildableName = "Acme.app"
+            BuildableName = "Veil.app"
             BlueprintName = "Acme"
             ReferencedContainer = "container:Veil.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0DC531432623CB5A00095F31"
-            BuildableName = "Acme.app"
+            BuildableName = "Veil.app"
             BlueprintName = "Acme"
             ReferencedContainer = "container:Veil.xcodeproj">
          </BuildableReference>
