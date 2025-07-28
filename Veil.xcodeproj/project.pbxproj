@@ -11,39 +11,31 @@
 		8EF2A2592E371074009FC03C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF2A2422E371073009FC03C /* Launch Screen.storyboard */; };
 		8EF2A25A2E371074009FC03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF2A2522E371073009FC03C /* Assets.xcassets */; };
 		8EF2A25B2E371074009FC03C /* AcmeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A23F2E371073009FC03C /* AcmeApp.swift */; };
-		8EF2A25C2E371074009FC03C /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A24C2E371073009FC03C /* BookmarksView.swift */; };
 		8EF2A25D2E371074009FC03C /* BrowserPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A2402E371073009FC03C /* BrowserPage.swift */; };
 		8EF2A25E2E371074009FC03C /* TabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A2432E371073009FC03C /* TabManager.swift */; };
 		8EF2A25F2E371074009FC03C /* BottomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A24E2E371073009FC03C /* BottomNavBarView.swift */; };
 		8EF2A2602E371074009FC03C /* websiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A2502E371073009FC03C /* websiteView.swift */; };
 		8EF2A2612E371074009FC03C /* webViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A2482E371073009FC03C /* webViewModel.swift */; };
 		8EF2A2622E371074009FC03C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A2412E371073009FC03C /* ContentView.swift */; };
-		8EF2A2632E371074009FC03C /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A2462E371073009FC03C /* Main.xcdatamodeld */; };
 		8EF2A2642E371074009FC03C /* BookmarksViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A24D2E371073009FC03C /* BookmarksViewRow.swift */; };
 		8EF2A2652E371074009FC03C /* URLBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A24F2E371073009FC03C /* URLBarView.swift */; };
-		8EF2A2662E371074009FC03C /* Acme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A2452E371073009FC03C /* Acme.xcdatamodeld */; };
-		8EF2A2672E371074009FC03C /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2A2472E371073009FC03C /* PersistenceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E6B3B722E37128E00697761 /* Veil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6B3B722E37128E00697761 /* Veil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Veil.app; path = "/Users/dmd/Library/Mobile Documents/com~apple~CloudDocs/Xcode Projects/Veil/Veil/build/Debug-iphoneos/Veil.app"; sourceTree = "<absolute>"; };
 		8EF2A23F2E371073009FC03C /* AcmeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcmeApp.swift; sourceTree = "<group>"; };
 		8EF2A2402E371073009FC03C /* BrowserPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserPage.swift; sourceTree = "<group>"; };
 		8EF2A2412E371073009FC03C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EF2A2422E371073009FC03C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8EF2A2432E371073009FC03C /* TabManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabManager.swift; sourceTree = "<group>"; };
-		8EF2A2472E371073009FC03C /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		8EF2A2482E371073009FC03C /* webViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewModel.swift; sourceTree = "<group>"; };
 		8EF2A24A2E371073009FC03C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8EF2A24C2E371073009FC03C /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
 		8EF2A24D2E371073009FC03C /* BookmarksViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewRow.swift; sourceTree = "<group>"; };
 		8EF2A24E2E371073009FC03C /* BottomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBarView.swift; sourceTree = "<group>"; };
 		8EF2A24F2E371073009FC03C /* URLBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBarView.swift; sourceTree = "<group>"; };
 		8EF2A2502E371073009FC03C /* websiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = websiteView.swift; sourceTree = "<group>"; };
 		8EF2A2522E371073009FC03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EF2A2532E371073009FC03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EF2A2552E371073009FC03C /* PyreFox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PyreFox.xcdatamodel; sourceTree = "<group>"; };
-		8EF2A2562E371073009FC03C /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				8EF2A2542E371073009FC03C /* Veil */,
-				8E6B3B722E37128E00697761 /* Veil.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,9 +71,6 @@
 		8EF2A2492E371073009FC03C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8EF2A2452E371073009FC03C /* Acme.xcdatamodeld */,
-				8EF2A2462E371073009FC03C /* Main.xcdatamodeld */,
-				8EF2A2472E371073009FC03C /* PersistenceController.swift */,
 				8EF2A2482E371073009FC03C /* webViewModel.swift */,
 			);
 			path = Model;
@@ -99,7 +87,6 @@
 		8EF2A2512E371073009FC03C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8EF2A24C2E371073009FC03C /* BookmarksView.swift */,
 				8EF2A24D2E371073009FC03C /* BookmarksViewRow.swift */,
 				8EF2A24E2E371073009FC03C /* BottomNavBarView.swift */,
 				8EF2A24F2E371073009FC03C /* URLBarView.swift */,
@@ -197,18 +184,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EF2A25B2E371074009FC03C /* AcmeApp.swift in Sources */,
-				8EF2A25C2E371074009FC03C /* BookmarksView.swift in Sources */,
 				8EF2A25D2E371074009FC03C /* BrowserPage.swift in Sources */,
 				8EF2A25E2E371074009FC03C /* TabManager.swift in Sources */,
 				8EF2A25F2E371074009FC03C /* BottomNavBarView.swift in Sources */,
 				8EF2A2602E371074009FC03C /* websiteView.swift in Sources */,
 				8EF2A2612E371074009FC03C /* webViewModel.swift in Sources */,
 				8EF2A2622E371074009FC03C /* ContentView.swift in Sources */,
-				8EF2A2632E371074009FC03C /* Main.xcdatamodeld in Sources */,
 				8EF2A2642E371074009FC03C /* BookmarksViewRow.swift in Sources */,
 				8EF2A2652E371074009FC03C /* URLBarView.swift in Sources */,
-				8EF2A2662E371074009FC03C /* Acme.xcdatamodeld in Sources */,
-				8EF2A2672E371074009FC03C /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,29 +396,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		8EF2A2452E371073009FC03C /* Acme.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8EF2A2552E371073009FC03C /* PyreFox.xcdatamodel */,
-			);
-			currentVersion = 8EF2A2552E371073009FC03C /* PyreFox.xcdatamodel */;
-			path = Acme.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		8EF2A2462E371073009FC03C /* Main.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8EF2A2562E371073009FC03C /* Main.xcdatamodel */,
-			);
-			currentVersion = 8EF2A2562E371073009FC03C /* Main.xcdatamodel */;
-			path = Main.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0DC5313C2623CB5A00095F31 /* Project object */;
 }

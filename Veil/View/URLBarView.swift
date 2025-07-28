@@ -20,7 +20,6 @@ struct URLBarView: View {
                         .keyboardType(.webSearch)
                     
                     Spacer()
-                    //Add current text val to bookmarks
                     Button(action:{
                         viewModel.webViewNavigationPublisher.send(.reload)
                     }) {
@@ -45,14 +44,7 @@ struct URLBarView: View {
                                     .font(.system(size:15))
                                     .foregroundColor(Color.accentColor)
                             }
-
-                            
-                            
-                            
-                            .sheet(isPresented: $isShowingBookmarks, content: {
-                                BookmarksView(isShowing: $isShowingBookmarks, viewModel: viewModel)
-                                    .environment(\.managedObjectContext, self.managedObjectContext)
-                            })
+                            }
                         }
                     }
                 }
@@ -61,36 +53,11 @@ struct URLBarView: View {
                 .cornerRadius(10.0)
                 .background(
                     RoundedRectangle(cornerRadius: 10)
-                        .fill(Color(UIColor.systemGray5))
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 10)
-                                .strokeBorder(Color("TextColor"), lineWidth: 0.3) // Border around the rounded rectangle
-                        )
-                )
-
-                Button(action:{
-                    let bookmark = Bookmark(context: managedObjectContext)
-                    bookmark.name = viewModel.showWebTitle
-                    bookmark.url = viewModel.url
-                    PersistenceController.shared.saveContext()
-                    
-                }) {
- 
+                        .fill(Color(UIColor.systemGray5)))
                 }
-                
-                
-                
-            }
-            
-
             .padding(.horizontal, 15)
             .padding(.bottom, 5)
         }
-        
-        
-        
-    }
-    
     func commitURL(){
         viewModel.webViewNavigationPublisher.send(WebViewNavigation.load)
     }

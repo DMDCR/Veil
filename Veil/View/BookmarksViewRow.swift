@@ -6,14 +6,7 @@ struct BookmarksViewRow: View {
     @Binding var isShowing: Bool
     @State var isSwiped: Bool = false
     @State var offset: CGFloat = 0.0
-    @ObservedObject var viewModel: WebViewModel
-    @FetchRequest(
-        entity: Bookmark.entity(),
-        sortDescriptors: [
-            NSSortDescriptor(keyPath: \Bookmark.url, ascending: true),
-        ]
-    ) var bookmarkesDelete: FetchedResults<Bookmark>
-    
+    @ObservedObject var viewModel: WebViewModel    
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
